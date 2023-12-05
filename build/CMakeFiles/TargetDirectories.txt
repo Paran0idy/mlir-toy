@@ -14,6 +14,7 @@
 /home/twoballs/projects/mlir/mlir-toy/build/CMakeFiles/install/local.dir
 /home/twoballs/projects/mlir/mlir-toy/build/CMakeFiles/install/strip.dir
 /home/twoballs/projects/mlir/mlir-toy/build/include/toy/CMakeFiles/MLIRToyIncGen.dir
+/home/twoballs/projects/mlir/mlir-toy/build/include/toy/CMakeFiles/MLIRToyTransformsIncGen.dir
 /home/twoballs/projects/mlir/mlir-toy/build/include/toy/CMakeFiles/edit_cache.dir
 /home/twoballs/projects/mlir/mlir-toy/build/include/toy/CMakeFiles/rebuild_cache.dir
 /home/twoballs/projects/mlir/mlir-toy/build/include/toy/CMakeFiles/list_install_components.dir
@@ -30,6 +31,16 @@
 /home/twoballs/projects/mlir/mlir-toy/build/lib/CMakeFiles/install.dir
 /home/twoballs/projects/mlir/mlir-toy/build/lib/CMakeFiles/install/local.dir
 /home/twoballs/projects/mlir/mlir-toy/build/lib/CMakeFiles/install/strip.dir
+/home/twoballs/projects/mlir/mlir-toy/build/lib/Transforms/CMakeFiles/obj.ToyTransforms.dir
+/home/twoballs/projects/mlir/mlir-toy/build/lib/Transforms/CMakeFiles/ToyTransforms.dir
+/home/twoballs/projects/mlir/mlir-toy/build/lib/Transforms/CMakeFiles/install-ToyTransforms.dir
+/home/twoballs/projects/mlir/mlir-toy/build/lib/Transforms/CMakeFiles/install-ToyTransforms-stripped.dir
+/home/twoballs/projects/mlir/mlir-toy/build/lib/Transforms/CMakeFiles/edit_cache.dir
+/home/twoballs/projects/mlir/mlir-toy/build/lib/Transforms/CMakeFiles/rebuild_cache.dir
+/home/twoballs/projects/mlir/mlir-toy/build/lib/Transforms/CMakeFiles/list_install_components.dir
+/home/twoballs/projects/mlir/mlir-toy/build/lib/Transforms/CMakeFiles/install.dir
+/home/twoballs/projects/mlir/mlir-toy/build/lib/Transforms/CMakeFiles/install/local.dir
+/home/twoballs/projects/mlir/mlir-toy/build/lib/Transforms/CMakeFiles/install/strip.dir
 /home/twoballs/projects/mlir/mlir-toy/build/tools/toy-opt/CMakeFiles/toy-opt.dir
 /home/twoballs/projects/mlir/mlir-toy/build/tools/toy-opt/CMakeFiles/edit_cache.dir
 /home/twoballs/projects/mlir/mlir-toy/build/tools/toy-opt/CMakeFiles/rebuild_cache.dir

@@ -357,6 +357,8 @@ CMakeFiles/mlir-toy.dir/main.cpp.o: \
  /usr/local/include/mlir/IR/BuiltinDialect.h.inc \
  /home/twoballs/projects/mlir/mlir-toy/build/include/toy/ToyDialect.h.inc \
  /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyOps.h \
+ /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/InferTypeOpInterface.h \
+ /usr/local/include/mlir/Interfaces/InferTypeOpInterface.h.inc \
  /home/twoballs/projects/mlir/mlir-toy/build/include/toy/Toy.h.inc \
  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Dialect/Func/IR/FuncOps.h \
  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/CallInterfaces.h \
@@ -367,8 +369,6 @@ CMakeFiles/mlir-toy.dir/main.cpp.o: \
  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/TypeUtilities.h \
  /usr/local/include/llvm/ADT/SmallString.h \
  /usr/local/include/mlir/Interfaces/FunctionInterfaces.h.inc \
- /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/InferTypeOpInterface.h \
- /usr/local/include/mlir/Interfaces/InferTypeOpInterface.h.inc \
  /usr/local/include/mlir/Dialect/Func/IR/FuncOps.h.inc \
  /usr/local/include/mlir/Dialect/Func/IR/FuncOpsDialect.h.inc \
  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Dialect/Arith/IR/Arith.h \

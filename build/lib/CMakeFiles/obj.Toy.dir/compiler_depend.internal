@@ -47,6 +47,7 @@ lib/CMakeFiles/obj.Toy.dir/Toy.cpp.o
  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/ValueRange.h
  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Visitors.h
  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/DataLayoutInterfaces.h
+ /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/InferTypeOpInterface.h
  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/SideEffectInterfaces.h
  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Support/ADTExtras.h
  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Support/InterfaceSupport.h
@@ -421,5 +422,6 @@ lib/CMakeFiles/obj.Toy.dir/Toy.cpp.o
  /usr/local/include/mlir/Interfaces/DataLayoutAttrInterface.h.inc
  /usr/local/include/mlir/Interfaces/DataLayoutOpInterface.h.inc
  /usr/local/include/mlir/Interfaces/DataLayoutTypeInterface.h.inc
+ /usr/local/include/mlir/Interfaces/InferTypeOpInterface.h.inc
  /usr/local/include/mlir/Interfaces/SideEffectInterfaces.h.inc
 

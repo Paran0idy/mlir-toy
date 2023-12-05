@@ -354,6 +354,8 @@ lib/CMakeFiles/obj.Toy.dir/Toy.cpp.o: \
  /usr/local/include/mlir/Interfaces/SideEffectInterfaces.h.inc \
  /usr/local/include/mlir/IR/BuiltinOps.h.inc \
  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Builders.h \
+ /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/InferTypeOpInterface.h \
+ /usr/local/include/mlir/Interfaces/InferTypeOpInterface.h.inc \
  /home/twoballs/projects/mlir/mlir-toy/build/include/toy/Toy.h.inc \
  /home/twoballs/projects/mlir/mlir-toy/build/include/toy/ToyDialect.cpp.inc \
  /home/twoballs/projects/mlir/mlir-toy/build/include/toy/Toy.cpp.inc

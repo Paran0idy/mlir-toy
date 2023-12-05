@@ -21,4 +21,4 @@ public:
   }
 };
 } // namespace toy
-MLIR_DECLARE_EXPLICIT_TYPE_ID(::toy::ToyDialect)
+MLIR_DECLARE_EXPLICIT_TYPE_ID(toy::ToyDialect)

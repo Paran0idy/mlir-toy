@@ -83,6 +83,7 @@ include/toy/Toy.cpp.inc: /home/twoballs/projects/mlir/llvm-project/build/bin/mli
 include/toy/Toy.cpp.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/Toy.td
 include/toy/Toy.cpp.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyDialect.td
 include/toy/Toy.cpp.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyOps.td
+include/toy/Toy.cpp.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyPasses.td
 include/toy/Toy.cpp.inc: /home/twoballs/projects/mlir/llvm-project/llvm/include/llvm/CodeGen/SDNodeProperties.td
 include/toy/Toy.cpp.inc: /home/twoballs/projects/mlir/llvm-project/llvm/include/llvm/CodeGen/ValueTypes.td
 include/toy/Toy.cpp.inc: /home/twoballs/projects/mlir/llvm-project/llvm/include/llvm/Frontend/Directive/DirectiveBase.td
@@ -134,6 +135,7 @@ include/toy/Toy.h.inc: /home/twoballs/projects/mlir/llvm-project/build/bin/mlir-
 include/toy/Toy.h.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/Toy.td
 include/toy/Toy.h.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyDialect.td
 include/toy/Toy.h.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyOps.td
+include/toy/Toy.h.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyPasses.td
 include/toy/Toy.h.inc: /home/twoballs/projects/mlir/llvm-project/llvm/include/llvm/CodeGen/SDNodeProperties.td
 include/toy/Toy.h.inc: /home/twoballs/projects/mlir/llvm-project/llvm/include/llvm/CodeGen/ValueTypes.td
 include/toy/Toy.h.inc: /home/twoballs/projects/mlir/llvm-project/llvm/include/llvm/Frontend/Directive/DirectiveBase.td
@@ -185,6 +187,7 @@ include/toy/ToyDialect.cpp.inc: /home/twoballs/projects/mlir/llvm-project/build/
 include/toy/ToyDialect.cpp.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/Toy.td
 include/toy/ToyDialect.cpp.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyDialect.td
 include/toy/ToyDialect.cpp.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyOps.td
+include/toy/ToyDialect.cpp.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyPasses.td
 include/toy/ToyDialect.cpp.inc: /home/twoballs/projects/mlir/llvm-project/llvm/include/llvm/CodeGen/SDNodeProperties.td
 include/toy/ToyDialect.cpp.inc: /home/twoballs/projects/mlir/llvm-project/llvm/include/llvm/CodeGen/ValueTypes.td
 include/toy/ToyDialect.cpp.inc: /home/twoballs/projects/mlir/llvm-project/llvm/include/llvm/Frontend/Directive/DirectiveBase.td
@@ -236,6 +239,7 @@ include/toy/ToyDialect.h.inc: /home/twoballs/projects/mlir/llvm-project/build/bi
 include/toy/ToyDialect.h.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/Toy.td
 include/toy/ToyDialect.h.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyDialect.td
 include/toy/ToyDialect.h.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyOps.td
+include/toy/ToyDialect.h.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyPasses.td
 include/toy/ToyDialect.h.inc: /home/twoballs/projects/mlir/llvm-project/llvm/include/llvm/CodeGen/SDNodeProperties.td
 include/toy/ToyDialect.h.inc: /home/twoballs/projects/mlir/llvm-project/llvm/include/llvm/CodeGen/ValueTypes.td
 include/toy/ToyDialect.h.inc: /home/twoballs/projects/mlir/llvm-project/llvm/include/llvm/Frontend/Directive/DirectiveBase.td
@@ -287,6 +291,7 @@ include/toy/ToyTypes.cpp.inc: /home/twoballs/projects/mlir/llvm-project/build/bi
 include/toy/ToyTypes.cpp.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/Toy.td
 include/toy/ToyTypes.cpp.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyDialect.td
 include/toy/ToyTypes.cpp.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyOps.td
+include/toy/ToyTypes.cpp.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyPasses.td
 include/toy/ToyTypes.cpp.inc: /home/twoballs/projects/mlir/llvm-project/llvm/include/llvm/CodeGen/SDNodeProperties.td
 include/toy/ToyTypes.cpp.inc: /home/twoballs/projects/mlir/llvm-project/llvm/include/llvm/CodeGen/ValueTypes.td
 include/toy/ToyTypes.cpp.inc: /home/twoballs/projects/mlir/llvm-project/llvm/include/llvm/Frontend/Directive/DirectiveBase.td
@@ -338,6 +343,7 @@ include/toy/ToyTypes.h.inc: /home/twoballs/projects/mlir/llvm-project/build/bin/
 include/toy/ToyTypes.h.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/Toy.td
 include/toy/ToyTypes.h.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyDialect.td
 include/toy/ToyTypes.h.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyOps.td
+include/toy/ToyTypes.h.inc: /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyPasses.td
 include/toy/ToyTypes.h.inc: /home/twoballs/projects/mlir/llvm-project/llvm/include/llvm/CodeGen/SDNodeProperties.td
 include/toy/ToyTypes.h.inc: /home/twoballs/projects/mlir/llvm-project/llvm/include/llvm/CodeGen/ValueTypes.td
 include/toy/ToyTypes.h.inc: /home/twoballs/projects/mlir/llvm-project/llvm/include/llvm/Frontend/Directive/DirectiveBase.td

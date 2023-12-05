@@ -7,6 +7,7 @@
 #include "toy/ToyDialect.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/Arith/IR/Arith.h"
+#include "toy/ToyOps.h"
 #include "llvm/Support/raw_ostream.h"
 
 using namespace mlir;
@@ -44,7 +45,10 @@ int main(int argc, char ** argv) {
 
     builder.setInsertionPoint(addi);
     builder.create<arith::MulIOp>(builder.getUnknownLoc(), ValueRange(args))->erase();
+    
     builder.create<toy::AddOp>(builder.getUnknownLoc(), i32, args[0], args[1]);
+    builder.create<toy::SubOp>(builder.getUnknownLoc(), i32, args);
+
     mod->print(llvm::outs());
     return 0;
 }

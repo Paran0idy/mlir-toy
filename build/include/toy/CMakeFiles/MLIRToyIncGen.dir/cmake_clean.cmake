@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "Toy.h.inc"
   "ToyDialect.cpp.inc"
   "ToyDialect.h.inc"
+  "ToyPasses.h.inc"
   "ToyTypes.cpp.inc"
   "ToyTypes.h.inc"
 )

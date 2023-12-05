@@ -1,10 +1,14 @@
 # Hashes of file build rules.
 8eea6c6f0a9a3d83eef1c35995d04e5d include/toy/CMakeFiles/MLIRToyIncGen
+8eea6c6f0a9a3d83eef1c35995d04e5d include/toy/CMakeFiles/MLIRToyTransformsIncGen
 d061a80be2dcd1f5ed6a1c5506a3b9e4 include/toy/Toy.cpp.inc
 de66ef59084d60e5355d3487ab4b70db include/toy/Toy.h.inc
 eaff5a05d623189ff367441de9627f6b include/toy/ToyDialect.cpp.inc
 3c21aa751e59dbcc7f2e029a5fa9b226 include/toy/ToyDialect.h.inc
+2ab6791a4746bd565d8e217a829f41b2 include/toy/ToyPasses.h.inc
 5f86db8750058f37e82477d65d408aca include/toy/ToyTypes.cpp.inc
 b96f878b9dd31322a0e06c73daff9879 include/toy/ToyTypes.h.inc
 0081742bb123e9ba3e8e7212d72fde50 lib/CMakeFiles/install-Toy
 75f78b32b0a80cbc4fa11eb094b8d149 lib/CMakeFiles/install-Toy-stripped
+654086ea69ef075ccaf441418b4ab95f lib/Transforms/CMakeFiles/install-ToyTransforms
+d554749665b5a588b5d1936b1bd28f1e lib/Transforms/CMakeFiles/install-ToyTransforms-stripped

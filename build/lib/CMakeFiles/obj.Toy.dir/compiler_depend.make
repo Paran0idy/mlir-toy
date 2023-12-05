@@ -46,6 +46,7 @@ lib/CMakeFiles/obj.Toy.dir/Toy.cpp.o: /home/twoballs/projects/mlir/mlir-toy/lib/
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/ValueRange.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Visitors.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/DataLayoutInterfaces.h \
+  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/InferTypeOpInterface.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/SideEffectInterfaces.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Support/ADTExtras.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Support/InterfaceSupport.h \
@@ -420,6 +421,7 @@ lib/CMakeFiles/obj.Toy.dir/Toy.cpp.o: /home/twoballs/projects/mlir/mlir-toy/lib/
   /usr/local/include/mlir/Interfaces/DataLayoutAttrInterface.h.inc \
   /usr/local/include/mlir/Interfaces/DataLayoutOpInterface.h.inc \
   /usr/local/include/mlir/Interfaces/DataLayoutTypeInterface.h.inc \
+  /usr/local/include/mlir/Interfaces/InferTypeOpInterface.h.inc \
   /usr/local/include/mlir/Interfaces/SideEffectInterfaces.h.inc
 
 
@@ -603,8 +605,6 @@ lib/CMakeFiles/obj.Toy.dir/Toy.cpp.o: /home/twoballs/projects/mlir/mlir-toy/lib/
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
-/usr/include/c++/11/bits/stl_function.h:
-
 /usr/include/c++/11/bits/stl_bvector.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
@@ -630,6 +630,8 @@ lib/CMakeFiles/obj.Toy.dir/Toy.cpp.o: /home/twoballs/projects/mlir/mlir-toy/lib/
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
 /usr/include/c++/11/bits/ostream.tcc:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/InferTypeOpInterface.h:
 
 /usr/include/features-time64.h:
 
@@ -1001,6 +1003,10 @@ include/toy/ToyDialect.h.inc:
 
 /usr/include/c++/11/bits/uses_allocator.h:
 
+/usr/include/alloca.h:
+
+/usr/include/c++/11/limits:
+
 /usr/include/c++/11/bits/erase_if.h:
 
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Diagnostics.h:
@@ -1011,9 +1017,7 @@ include/toy/ToyDialect.h.inc:
 
 /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyOps.h:
 
-/usr/include/alloca.h:
-
-/usr/include/c++/11/limits:
+/usr/include/c++/11/bits/stl_function.h:
 
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
@@ -1030,6 +1034,8 @@ include/toy/ToyDialect.h.inc:
 /usr/include/c++/11/bits/stl_map.h:
 
 /usr/include/c++/11/bits/stl_multimap.h:
+
+/usr/local/include/mlir/Interfaces/InferTypeOpInterface.h.inc:
 
 /usr/include/c++/11/bits/stl_pair.h:
 

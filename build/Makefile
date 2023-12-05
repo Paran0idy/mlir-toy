@@ -87,7 +87,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Toy\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Toy\" \"ToyTransforms\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -292,6 +292,19 @@ MLIRToyIncGen/fast:
 .PHONY : MLIRToyIncGen/fast
 
 #=============================================================================
+# Target rules for targets named MLIRToyTransformsIncGen
+
+# Build rule for target.
+MLIRToyTransformsIncGen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MLIRToyTransformsIncGen
+.PHONY : MLIRToyTransformsIncGen
+
+# fast build rule for target.
+MLIRToyTransformsIncGen/fast:
+	$(MAKE) $(MAKESILENT) -f include/toy/CMakeFiles/MLIRToyTransformsIncGen.dir/build.make include/toy/CMakeFiles/MLIRToyTransformsIncGen.dir/build
+.PHONY : MLIRToyTransformsIncGen/fast
+
+#=============================================================================
 # Target rules for targets named obj.Toy
 
 # Build rule for target.
@@ -344,6 +357,58 @@ install-Toy-stripped/fast:
 .PHONY : install-Toy-stripped/fast
 
 #=============================================================================
+# Target rules for targets named obj.ToyTransforms
+
+# Build rule for target.
+obj.ToyTransforms: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 obj.ToyTransforms
+.PHONY : obj.ToyTransforms
+
+# fast build rule for target.
+obj.ToyTransforms/fast:
+	$(MAKE) $(MAKESILENT) -f lib/Transforms/CMakeFiles/obj.ToyTransforms.dir/build.make lib/Transforms/CMakeFiles/obj.ToyTransforms.dir/build
+.PHONY : obj.ToyTransforms/fast
+
+#=============================================================================
+# Target rules for targets named ToyTransforms
+
+# Build rule for target.
+ToyTransforms: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ToyTransforms
+.PHONY : ToyTransforms
+
+# fast build rule for target.
+ToyTransforms/fast:
+	$(MAKE) $(MAKESILENT) -f lib/Transforms/CMakeFiles/ToyTransforms.dir/build.make lib/Transforms/CMakeFiles/ToyTransforms.dir/build
+.PHONY : ToyTransforms/fast
+
+#=============================================================================
+# Target rules for targets named install-ToyTransforms
+
+# Build rule for target.
+install-ToyTransforms: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 install-ToyTransforms
+.PHONY : install-ToyTransforms
+
+# fast build rule for target.
+install-ToyTransforms/fast:
+	$(MAKE) $(MAKESILENT) -f lib/Transforms/CMakeFiles/install-ToyTransforms.dir/build.make lib/Transforms/CMakeFiles/install-ToyTransforms.dir/build
+.PHONY : install-ToyTransforms/fast
+
+#=============================================================================
+# Target rules for targets named install-ToyTransforms-stripped
+
+# Build rule for target.
+install-ToyTransforms-stripped: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 install-ToyTransforms-stripped
+.PHONY : install-ToyTransforms-stripped
+
+# fast build rule for target.
+install-ToyTransforms-stripped/fast:
+	$(MAKE) $(MAKESILENT) -f lib/Transforms/CMakeFiles/install-ToyTransforms-stripped.dir/build.make lib/Transforms/CMakeFiles/install-ToyTransforms-stripped.dir/build
+.PHONY : install-ToyTransforms-stripped/fast
+
+#=============================================================================
 # Target rules for targets named toy-opt
 
 # Build rule for target.
@@ -393,10 +458,13 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... MLIRToyIncGen"
+	@echo "... MLIRToyTransformsIncGen"
 	@echo "... RISCVTargetParserTableGen"
 	@echo "... acc_gen"
 	@echo "... install-Toy"
 	@echo "... install-Toy-stripped"
+	@echo "... install-ToyTransforms"
+	@echo "... install-ToyTransforms-stripped"
 	@echo "... intrinsics_gen"
 	@echo "... mlir-doc"
 	@echo "... mlir-generic-headers"
@@ -404,8 +472,10 @@ help:
 	@echo "... mlir-tablegen-targets"
 	@echo "... omp_gen"
 	@echo "... Toy"
+	@echo "... ToyTransforms"
 	@echo "... mlir-toy"
 	@echo "... obj.Toy"
+	@echo "... obj.ToyTransforms"
 	@echo "... toy-opt"
 	@echo "... main.o"
 	@echo "... main.i"
