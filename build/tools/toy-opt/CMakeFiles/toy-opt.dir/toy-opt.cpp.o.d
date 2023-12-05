@@ -378,4 +378,17 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: \
  /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyDialect.h \
  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/BuiltinDialect.h \
  /usr/local/include/mlir/IR/BuiltinDialect.h.inc \
- /home/twoballs/projects/mlir/mlir-toy/build/include/toy/ToyDialect.h.inc
+ /home/twoballs/projects/mlir/mlir-toy/build/include/toy/ToyDialect.h.inc \
+ /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyOps.h \
+ /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/BuiltinOps.h \
+ /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/OwningOpRef.h \
+ /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/RegionKindInterface.h \
+ /usr/local/include/mlir/IR/RegionKindInterface.h.inc \
+ /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/DataLayoutInterfaces.h \
+ /usr/local/include/mlir/Interfaces/DataLayoutAttrInterface.h.inc \
+ /usr/local/include/mlir/Interfaces/DataLayoutOpInterface.h.inc \
+ /usr/local/include/mlir/Interfaces/DataLayoutTypeInterface.h.inc \
+ /usr/local/include/mlir/IR/BuiltinOps.h.inc \
+ /home/twoballs/projects/mlir/mlir-toy/build/include/toy/Toy.h.inc \
+ /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyPasses.h \
+ /home/twoballs/projects/mlir/mlir-toy/build/include/toy/ToyPasses.h.inc

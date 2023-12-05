@@ -74,6 +74,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.27.7/CMakeSystem.cmake"
   "/home/twoballs/projects/mlir/mlir-toy/include/toy/CMakeLists.txt"
   "/home/twoballs/projects/mlir/mlir-toy/lib/CMakeLists.txt"
+  "/home/twoballs/projects/mlir/mlir-toy/lib/Transforms/CMakeLists.txt"
   "/home/twoballs/projects/mlir/mlir-toy/tools/toy-opt/CMakeLists.txt"
   )
 
@@ -88,6 +89,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "include/toy/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/Transforms/CMakeFiles/CMakeDirectoryInformation.cmake"
   "tools/toy-opt/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -103,9 +105,14 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/mlir-doc.dir/DependInfo.cmake"
   "CMakeFiles/mlir-toy.dir/DependInfo.cmake"
   "include/toy/CMakeFiles/MLIRToyIncGen.dir/DependInfo.cmake"
+  "include/toy/CMakeFiles/MLIRToyTransformsIncGen.dir/DependInfo.cmake"
   "lib/CMakeFiles/obj.Toy.dir/DependInfo.cmake"
   "lib/CMakeFiles/Toy.dir/DependInfo.cmake"
   "lib/CMakeFiles/install-Toy.dir/DependInfo.cmake"
   "lib/CMakeFiles/install-Toy-stripped.dir/DependInfo.cmake"
+  "lib/Transforms/CMakeFiles/obj.ToyTransforms.dir/DependInfo.cmake"
+  "lib/Transforms/CMakeFiles/ToyTransforms.dir/DependInfo.cmake"
+  "lib/Transforms/CMakeFiles/install-ToyTransforms.dir/DependInfo.cmake"
+  "lib/Transforms/CMakeFiles/install-ToyTransforms-stripped.dir/DependInfo.cmake"
   "tools/toy-opt/CMakeFiles/toy-opt.dir/DependInfo.cmake"
   )

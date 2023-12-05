@@ -87,7 +87,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Toy\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Toy\" \"ToyTransforms\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -175,6 +175,20 @@ MLIRToyIncGen/fast:
 	cd /home/twoballs/projects/mlir/mlir-toy/build && $(MAKE) $(MAKESILENT) -f include/toy/CMakeFiles/MLIRToyIncGen.dir/build.make include/toy/CMakeFiles/MLIRToyIncGen.dir/build
 .PHONY : MLIRToyIncGen/fast
 
+# Convenience name for target.
+include/toy/CMakeFiles/MLIRToyTransformsIncGen.dir/rule:
+	cd /home/twoballs/projects/mlir/mlir-toy/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/toy/CMakeFiles/MLIRToyTransformsIncGen.dir/rule
+.PHONY : include/toy/CMakeFiles/MLIRToyTransformsIncGen.dir/rule
+
+# Convenience name for target.
+MLIRToyTransformsIncGen: include/toy/CMakeFiles/MLIRToyTransformsIncGen.dir/rule
+.PHONY : MLIRToyTransformsIncGen
+
+# fast build rule for target.
+MLIRToyTransformsIncGen/fast:
+	cd /home/twoballs/projects/mlir/mlir-toy/build && $(MAKE) $(MAKESILENT) -f include/toy/CMakeFiles/MLIRToyTransformsIncGen.dir/build.make include/toy/CMakeFiles/MLIRToyTransformsIncGen.dir/build
+.PHONY : MLIRToyTransformsIncGen/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -188,6 +202,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... MLIRToyIncGen"
+	@echo "... MLIRToyTransformsIncGen"
 .PHONY : help
 
 

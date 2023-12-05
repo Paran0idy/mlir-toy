@@ -12,6 +12,12 @@
   "output": "lib/CMakeFiles/obj.Toy.dir/Toy.cpp.o"
 },
 {
+  "directory": "/home/twoballs/projects/mlir/mlir-toy/build/lib/Transforms",
+  "command": "/usr/bin/c++ -D_DEBUG -D_GLIBCXX_ASSERTIONS -D_LIBCPP_ENABLE_HARDENED_MODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/twoballs/projects/mlir/mlir-toy/include -I/home/twoballs/projects/mlir/mlir-toy/build/include -I/home/twoballs/projects/mlir/llvm-project/mlir/include  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -ffunction-sections -fdata-sections -std=gnu++17  -fno-exceptions -funwind-tables -UNDEBUG -o CMakeFiles/obj.ToyTransforms.dir/ConvertToyToArith.cpp.o -c /home/twoballs/projects/mlir/mlir-toy/lib/Transforms/ConvertToyToArith.cpp",
+  "file": "/home/twoballs/projects/mlir/mlir-toy/lib/Transforms/ConvertToyToArith.cpp",
+  "output": "lib/Transforms/CMakeFiles/obj.ToyTransforms.dir/ConvertToyToArith.cpp.o"
+},
+{
   "directory": "/home/twoballs/projects/mlir/mlir-toy/build/tools/toy-opt",
   "command": "/usr/bin/c++ -D_DEBUG -D_GLIBCXX_ASSERTIONS -D_LIBCPP_ENABLE_HARDENED_MODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/twoballs/projects/mlir/mlir-toy/include -I/home/twoballs/projects/mlir/mlir-toy/build/include -I/home/twoballs/projects/mlir/llvm-project/mlir/include  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -ffunction-sections -fdata-sections -std=gnu++17  -fno-exceptions -funwind-tables -UNDEBUG -o CMakeFiles/toy-opt.dir/toy-opt.cpp.o -c /home/twoballs/projects/mlir/mlir-toy/tools/toy-opt/toy-opt.cpp",
   "file": "/home/twoballs/projects/mlir/mlir-toy/tools/toy-opt/toy-opt.cpp",

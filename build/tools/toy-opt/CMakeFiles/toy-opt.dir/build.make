@@ -99,6 +99,7 @@ toy-opt: lib/libToy.a
 toy-opt: /home/twoballs/projects/mlir/llvm-project/build/lib/libMLIROptLib.a
 toy-opt: /home/twoballs/projects/mlir/llvm-project/build/lib/libMLIRFuncDialect.a
 toy-opt: /home/twoballs/projects/mlir/llvm-project/build/lib/libMLIRTransforms.a
+toy-opt: lib/Transforms/libToyTransforms.a
 toy-opt: /home/twoballs/projects/mlir/llvm-project/build/lib/libMLIRParser.a
 toy-opt: /home/twoballs/projects/mlir/llvm-project/build/lib/libMLIRBytecodeReader.a
 toy-opt: /home/twoballs/projects/mlir/llvm-project/build/lib/libMLIRAsmParser.a

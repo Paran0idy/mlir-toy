@@ -46,3 +46,9 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Toy" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/twoballs/projects/mlir/mlir-toy/build/lib/libToy.a")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("/home/twoballs/projects/mlir/mlir-toy/build/lib/Transforms/cmake_install.cmake")
+
+endif()
+

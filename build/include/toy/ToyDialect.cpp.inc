@@ -7,7 +7,7 @@
 |*                                                                            *|
 \*===----------------------------------------------------------------------===*/
 
-MLIR_DEFINE_EXPLICIT_TYPE_ID(::toy::ToyDialect)
+MLIR_DEFINE_EXPLICIT_TYPE_ID(toy::ToyDialect)
 namespace toy {
 
 ToyDialect::ToyDialect(::mlir::MLIRContext *context)
