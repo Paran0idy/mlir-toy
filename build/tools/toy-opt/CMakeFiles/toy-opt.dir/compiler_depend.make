@@ -11,7 +11,12 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Debug/BreakpointManagers/FileLineColLocBreakpointManager.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Debug/CLOptionsSetup.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Debug/ExecutionContext.h \
+  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Dialect/Arith/IR/Arith.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Dialect/Func/IR/FuncOps.h \
+  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Dialect/LLVMIR/LLVMAttrs.h \
+  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Dialect/LLVMIR/LLVMDialect.h \
+  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Dialect/LLVMIR/LLVMInterfaces.h \
+  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Dialect/LLVMIR/LLVMTypes.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Action.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/AffineExpr.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/AffineMap.h \
@@ -32,6 +37,7 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Dialect.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/DialectInterface.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/DialectRegistry.h \
+  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Dominance.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Location.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/MLIRContext.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/ODSSupport.h \
@@ -40,7 +46,9 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Operation.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/OperationSupport.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/OwningOpRef.h \
+  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/PatternMatch.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Region.h \
+  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/RegionGraphTraits.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/RegionKindInterface.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/StorageUniquerSupport.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/SymbolTable.h \
@@ -54,11 +62,15 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/ValueRange.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Visitors.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/CallInterfaces.h \
+  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/CastInterfaces.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/ControlFlowInterfaces.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/DataLayoutInterfaces.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/FunctionInterfaces.h \
+  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/InferIntRangeInterface.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/InferTypeOpInterface.h \
+  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/MemorySlotInterfaces.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/SideEffectInterfaces.h \
+  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/VectorInterfaces.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Pass/AnalysisManager.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Pass/Pass.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Pass/PassInstrumentation.h \
@@ -69,9 +81,11 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Support/LLVM.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Support/LogicalResult.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Support/StorageUniquer.h \
+  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Support/ThreadLocalCache.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Support/TypeID.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Tools/mlir-opt/MlirOptMain.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Transforms/LocationSnapshot.h \
+  /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Transforms/Mem2Reg.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Transforms/Passes.h \
   /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Transforms/ViewOpGraph.h \
   include/toy/Toy.h.inc \
@@ -366,12 +380,16 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/local/include/llvm-c/DataTypes.h \
+  /usr/local/include/llvm-c/ExternC.h \
+  /usr/local/include/llvm-c/Types.h \
   /usr/local/include/llvm/ADT/ADL.h \
   /usr/local/include/llvm/ADT/APFloat.h \
   /usr/local/include/llvm/ADT/APInt.h \
+  /usr/local/include/llvm/ADT/APSInt.h \
   /usr/local/include/llvm/ADT/Any.h \
   /usr/local/include/llvm/ADT/ArrayRef.h \
   /usr/local/include/llvm/ADT/BitVector.h \
+  /usr/local/include/llvm/ADT/Bitfields.h \
   /usr/local/include/llvm/ADT/BitmaskEnum.h \
   /usr/local/include/llvm/ADT/DenseMap.h \
   /usr/local/include/llvm/ADT/DenseMapInfo.h \
@@ -379,8 +397,10 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
   /usr/local/include/llvm/ADT/EpochTracker.h \
   /usr/local/include/llvm/ADT/FloatingPointMode.h \
   /usr/local/include/llvm/ADT/FunctionExtras.h \
+  /usr/local/include/llvm/ADT/GraphTraits.h \
   /usr/local/include/llvm/ADT/Hashing.h \
   /usr/local/include/llvm/ADT/MapVector.h \
+  /usr/local/include/llvm/ADT/PointerEmbeddedInt.h \
   /usr/local/include/llvm/ADT/PointerIntPair.h \
   /usr/local/include/llvm/ADT/PointerUnion.h \
   /usr/local/include/llvm/ADT/STLExtras.h \
@@ -394,6 +414,7 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
   /usr/local/include/llvm/ADT/SmallVector.h \
   /usr/local/include/llvm/ADT/SmallVectorExtras.h \
   /usr/local/include/llvm/ADT/Statistic.h \
+  /usr/local/include/llvm/ADT/StringExtras.h \
   /usr/local/include/llvm/ADT/StringMap.h \
   /usr/local/include/llvm/ADT/StringMapEntry.h \
   /usr/local/include/llvm/ADT/StringRef.h \
@@ -411,19 +432,62 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
   /usr/local/include/llvm/ADT/simple_ilist.h \
   /usr/local/include/llvm/Config/abi-breaking.h \
   /usr/local/include/llvm/Config/llvm-config.h \
+  /usr/local/include/llvm/IR/Argument.h \
+  /usr/local/include/llvm/IR/Attributes.h \
+  /usr/local/include/llvm/IR/Attributes.inc \
+  /usr/local/include/llvm/IR/BasicBlock.h \
+  /usr/local/include/llvm/IR/CallingConv.h \
+  /usr/local/include/llvm/IR/Comdat.h \
+  /usr/local/include/llvm/IR/Constant.h \
+  /usr/local/include/llvm/IR/DataLayout.h \
+  /usr/local/include/llvm/IR/DebugLoc.h \
+  /usr/local/include/llvm/IR/DerivedTypes.h \
+  /usr/local/include/llvm/IR/DiagnosticHandler.h \
+  /usr/local/include/llvm/IR/FixedMetadataKinds.def \
+  /usr/local/include/llvm/IR/Function.h \
+  /usr/local/include/llvm/IR/GlobalAlias.h \
+  /usr/local/include/llvm/IR/GlobalIFunc.h \
+  /usr/local/include/llvm/IR/GlobalObject.h \
+  /usr/local/include/llvm/IR/GlobalValue.h \
+  /usr/local/include/llvm/IR/GlobalVariable.h \
+  /usr/local/include/llvm/IR/Instruction.def \
+  /usr/local/include/llvm/IR/Instruction.h \
+  /usr/local/include/llvm/IR/LLVMContext.h \
+  /usr/local/include/llvm/IR/Metadata.def \
+  /usr/local/include/llvm/IR/Metadata.h \
+  /usr/local/include/llvm/IR/Module.h \
+  /usr/local/include/llvm/IR/OperandTraits.h \
+  /usr/local/include/llvm/IR/ProfileSummary.h \
+  /usr/local/include/llvm/IR/SymbolTableListTraits.h \
+  /usr/local/include/llvm/IR/TrackingMDRef.h \
+  /usr/local/include/llvm/IR/Type.h \
+  /usr/local/include/llvm/IR/Use.h \
+  /usr/local/include/llvm/IR/User.h \
+  /usr/local/include/llvm/IR/Value.def \
+  /usr/local/include/llvm/IR/Value.h \
   /usr/local/include/llvm/Support/AlignOf.h \
   /usr/local/include/llvm/Support/Alignment.h \
   /usr/local/include/llvm/Support/Allocator.h \
   /usr/local/include/llvm/Support/AllocatorBase.h \
+  /usr/local/include/llvm/Support/AtomicOrdering.h \
+  /usr/local/include/llvm/Support/CBindingWrapping.h \
+  /usr/local/include/llvm/Support/CFGDiff.h \
+  /usr/local/include/llvm/Support/CFGUpdate.h \
   /usr/local/include/llvm/Support/Casting.h \
+  /usr/local/include/llvm/Support/CodeGen.h \
   /usr/local/include/llvm/Support/CommandLine.h \
   /usr/local/include/llvm/Support/Compiler.h \
   /usr/local/include/llvm/Support/DataTypes.h \
   /usr/local/include/llvm/Support/Debug.h \
+  /usr/local/include/llvm/Support/Endian.h \
   /usr/local/include/llvm/Support/ErrorHandling.h \
+  /usr/local/include/llvm/Support/GenericDomTree.h \
+  /usr/local/include/llvm/Support/MD5.h \
   /usr/local/include/llvm/Support/ManagedStatic.h \
   /usr/local/include/llvm/Support/MathExtras.h \
   /usr/local/include/llvm/Support/MemAlloc.h \
+  /usr/local/include/llvm/Support/ModRef.h \
+  /usr/local/include/llvm/Support/Mutex.h \
   /usr/local/include/llvm/Support/PointerLikeTypeTraits.h \
   /usr/local/include/llvm/Support/RWMutex.h \
   /usr/local/include/llvm/Support/ReverseIteration.h \
@@ -433,11 +497,25 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
   /usr/local/include/llvm/Support/Threading.h \
   /usr/local/include/llvm/Support/TrailingObjects.h \
   /usr/local/include/llvm/Support/TypeName.h \
+  /usr/local/include/llvm/Support/TypeSize.h \
   /usr/local/include/llvm/Support/raw_ostream.h \
   /usr/local/include/llvm/Support/type_traits.h \
   /usr/local/include/mlir/Bytecode/BytecodeOpInterface.h.inc \
+  /usr/local/include/mlir/Dialect/Arith/IR/ArithOps.h.inc \
+  /usr/local/include/mlir/Dialect/Arith/IR/ArithOpsAttributes.h.inc \
+  /usr/local/include/mlir/Dialect/Arith/IR/ArithOpsDialect.h.inc \
+  /usr/local/include/mlir/Dialect/Arith/IR/ArithOpsEnums.h.inc \
+  /usr/local/include/mlir/Dialect/Arith/IR/ArithOpsInterfaces.h.inc \
   /usr/local/include/mlir/Dialect/Func/IR/FuncOps.h.inc \
   /usr/local/include/mlir/Dialect/Func/IR/FuncOpsDialect.h.inc \
+  /usr/local/include/mlir/Dialect/LLVMIR/LLVMInterfaces.h.inc \
+  /usr/local/include/mlir/Dialect/LLVMIR/LLVMIntrinsicOps.h.inc \
+  /usr/local/include/mlir/Dialect/LLVMIR/LLVMOps.h.inc \
+  /usr/local/include/mlir/Dialect/LLVMIR/LLVMOpsAttrDefs.h.inc \
+  /usr/local/include/mlir/Dialect/LLVMIR/LLVMOpsDialect.h.inc \
+  /usr/local/include/mlir/Dialect/LLVMIR/LLVMOpsEnums.h.inc \
+  /usr/local/include/mlir/Dialect/LLVMIR/LLVMTypeInterfaces.h.inc \
+  /usr/local/include/mlir/Dialect/LLVMIR/LLVMTypes.h.inc \
   /usr/local/include/mlir/IR/BuiltinAttributeInterfaces.h.inc \
   /usr/local/include/mlir/IR/BuiltinAttributes.h.inc \
   /usr/local/include/mlir/IR/BuiltinDialect.h.inc \
@@ -449,15 +527,22 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
   /usr/local/include/mlir/IR/RegionKindInterface.h.inc \
   /usr/local/include/mlir/IR/SymbolInterfaces.h.inc \
   /usr/local/include/mlir/Interfaces/CallInterfaces.h.inc \
+  /usr/local/include/mlir/Interfaces/CastInterfaces.h.inc \
   /usr/local/include/mlir/Interfaces/ControlFlowInterfaces.h.inc \
   /usr/local/include/mlir/Interfaces/DataLayoutAttrInterface.h.inc \
   /usr/local/include/mlir/Interfaces/DataLayoutOpInterface.h.inc \
   /usr/local/include/mlir/Interfaces/DataLayoutTypeInterface.h.inc \
   /usr/local/include/mlir/Interfaces/FunctionInterfaces.h.inc \
+  /usr/local/include/mlir/Interfaces/InferIntRangeInterface.h.inc \
   /usr/local/include/mlir/Interfaces/InferTypeOpInterface.h.inc \
+  /usr/local/include/mlir/Interfaces/MemorySlotOpInterfaces.h.inc \
+  /usr/local/include/mlir/Interfaces/MemorySlotTypeInterfaces.h.inc \
   /usr/local/include/mlir/Interfaces/SideEffectInterfaces.h.inc \
+  /usr/local/include/mlir/Interfaces/VectorInterfaces.h.inc \
   /usr/local/include/mlir/Transforms/Passes.h.inc
 
+
+/usr/local/include/mlir/Interfaces/InferIntRangeInterface.h.inc:
 
 /usr/local/include/mlir/Interfaces/ControlFlowInterfaces.h.inc:
 
@@ -465,9 +550,25 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
 
 /usr/local/include/mlir/IR/BuiltinOps.h.inc:
 
+/usr/local/include/mlir/Dialect/LLVMIR/LLVMTypes.h.inc:
+
+/usr/local/include/mlir/Dialect/LLVMIR/LLVMOpsEnums.h.inc:
+
+/usr/local/include/mlir/Dialect/LLVMIR/LLVMOpsDialect.h.inc:
+
+/usr/local/include/mlir/Dialect/LLVMIR/LLVMOpsAttrDefs.h.inc:
+
+/usr/local/include/mlir/Dialect/LLVMIR/LLVMOps.h.inc:
+
+/usr/local/include/mlir/Dialect/LLVMIR/LLVMIntrinsicOps.h.inc:
+
 /usr/local/include/mlir/Dialect/Func/IR/FuncOpsDialect.h.inc:
 
 /usr/local/include/mlir/Dialect/Func/IR/FuncOps.h.inc:
+
+/usr/local/include/mlir/Dialect/Arith/IR/ArithOpsEnums.h.inc:
+
+/usr/local/include/mlir/Dialect/Arith/IR/ArithOps.h.inc:
 
 /usr/local/include/llvm/Support/type_traits.h:
 
@@ -481,7 +582,11 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
 
 /usr/local/include/llvm/Support/PointerLikeTypeTraits.h:
 
-/usr/local/include/llvm/Support/MathExtras.h:
+/usr/local/include/llvm/Support/ModRef.h:
+
+/usr/local/include/llvm/Support/GenericDomTree.h:
+
+/usr/local/include/llvm/Support/Endian.h:
 
 /usr/local/include/llvm/Support/DataTypes.h:
 
@@ -489,11 +594,39 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
 
 /usr/local/include/llvm/Support/Compiler.h:
 
+/usr/local/include/llvm/Support/CodeGen.h:
+
 /usr/local/include/llvm/Support/Casting.h:
+
+/usr/local/include/llvm/Support/CBindingWrapping.h:
 
 /usr/local/include/llvm/Support/Allocator.h:
 
 /usr/local/include/llvm/Support/Alignment.h:
+
+/usr/local/include/llvm/IR/Value.def:
+
+/usr/local/include/llvm/IR/TrackingMDRef.h:
+
+/usr/local/include/llvm/IR/OperandTraits.h:
+
+/usr/local/include/llvm/IR/Metadata.h:
+
+/usr/local/include/llvm/IR/LLVMContext.h:
+
+/usr/local/include/llvm/IR/GlobalVariable.h:
+
+/usr/local/include/llvm/IR/GlobalAlias.h:
+
+/usr/local/include/llvm/IR/CallingConv.h:
+
+/usr/local/include/llvm/IR/BasicBlock.h:
+
+/usr/local/include/llvm/IR/Attributes.inc:
+
+/usr/local/include/llvm/Support/MathExtras.h:
+
+/usr/local/include/llvm/IR/Attributes.h:
 
 /usr/local/include/llvm/ADT/iterator_range.h:
 
@@ -503,7 +636,11 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
 
 /usr/local/include/llvm/ADT/ilist_base.h:
 
+/usr/local/include/llvm/Support/Mutex.h:
+
 /usr/local/include/llvm/ADT/StringRef.h:
+
+/usr/local/include/llvm/ADT/StringExtras.h:
 
 /usr/local/include/llvm/ADT/Statistic.h:
 
@@ -515,25 +652,43 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
 
 /usr/local/include/llvm/ADT/Sequence.h:
 
+/usr/local/include/llvm/ADT/PointerEmbeddedInt.h:
+
 /usr/local/include/llvm/ADT/MapVector.h:
 
 /usr/local/include/llvm/ADT/Hashing.h:
 
 /usr/local/include/llvm/ADT/FunctionExtras.h:
 
+/usr/local/include/mlir/Dialect/Arith/IR/ArithOpsAttributes.h.inc:
+
 /usr/local/include/llvm/ADT/FloatingPointMode.h:
+
+/usr/local/include/llvm/IR/Use.h:
 
 /usr/local/include/llvm/ADT/DenseMapInfo.h:
 
+/usr/local/include/llvm/IR/Metadata.def:
+
+/usr/local/include/llvm/ADT/Bitfields.h:
+
 /usr/local/include/llvm/ADT/Any.h:
 
+/usr/local/include/llvm/ADT/APSInt.h:
+
+/usr/local/include/llvm/IR/Module.h:
+
 /usr/local/include/llvm/ADT/APInt.h:
+
+/usr/local/include/llvm-c/ExternC.h:
 
 /usr/local/include/llvm-c/DataTypes.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
 
 /usr/local/include/mlir/IR/BuiltinTypes.h.inc:
+
+/usr/local/include/llvm/Support/CFGUpdate.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
@@ -553,11 +708,7 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
-/usr/local/include/llvm/ADT/bit.h:
-
-/usr/local/include/llvm/ADT/PointerUnion.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
+/usr/local/include/llvm/IR/Argument.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
 
@@ -587,13 +738,15 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
+/usr/local/include/llvm-c/Types.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/local/include/llvm/IR/DerivedTypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 
@@ -612,6 +765,8 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/local/include/llvm/IR/Instruction.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
@@ -651,6 +806,8 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
+/usr/local/include/llvm/IR/DebugLoc.h:
+
 /usr/local/include/llvm/ADT/SmallBitVector.h:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
@@ -673,39 +830,17 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
 
 /usr/include/stdc-predef.h:
 
+/usr/local/include/llvm/IR/ProfileSummary.h:
+
 /usr/include/sched.h:
 
-/usr/include/c++/11/bits/locale_facets.tcc:
+/usr/include/locale.h:
 
-/usr/local/include/llvm/ADT/simple_ilist.h:
+/usr/local/include/llvm/ADT/ilist_node.h:
 
-/usr/local/include/llvm/ADT/Twine.h:
+/usr/include/linux/limits.h:
 
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/AttrTypeSubElements.h:
-
-/usr/local/include/llvm/ADT/StringSwitch.h:
-
-/usr/include/c++/11/bits/locale_classes.tcc:
-
-/usr/local/include/mlir/Transforms/Passes.h.inc:
-
-/usr/include/c++/11/bits/stl_tree.h:
-
-/usr/include/c++/11/bits/exception.h:
-
-/usr/include/c++/11/bits/enable_special_members.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/StorageUniquerSupport.h:
-
-/usr/include/c++/11/bits/stl_uninitialized.h:
-
-/usr/include/c++/11/bits/basic_string.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-/usr/include/c++/11/bits/basic_string.h:
+/usr/local/include/mlir/Interfaces/VectorInterfaces.h.inc:
 
 /usr/local/include/mlir/IR/BuiltinDialect.h.inc:
 
@@ -713,17 +848,47 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
 
 /usr/include/linux/errno.h:
 
-/usr/include/c++/11/bits/memoryfwd.h:
+/usr/include/limits.h:
 
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
 
-/usr/include/c++/11/shared_mutex:
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
-/usr/include/c++/11/bits/invoke.h:
+/usr/include/wctype.h:
 
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Action.h:
+/usr/include/inttypes.h:
 
-/usr/include/c++/11/atomic:
+/usr/include/features.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/endian.h:
+
+/usr/local/include/mlir/Interfaces/MemorySlotTypeInterfaces.h.inc:
+
+/usr/local/include/llvm/ADT/StringMapEntry.h:
+
+/usr/include/wchar.h:
+
+/usr/include/c++/11/vector:
+
+/usr/include/c++/11/variant:
+
+/usr/include/c++/11/bits/exception.h:
+
+/usr/local/include/llvm/ADT/GraphTraits.h:
+
+/usr/include/c++/11/bits/enable_special_members.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/StorageUniquerSupport.h:
+
+/usr/include/c++/11/bits/basic_string.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/c++/11/bits/basic_string.h:
 
 /usr/include/c++/11/bits/basic_ios.h:
 
@@ -743,13 +908,7 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
 
 /usr/include/c++/11/bits/range_access.h:
 
-/usr/include/features-time64.h:
-
-/usr/include/c++/11/bit:
-
-/usr/include/c++/11/bits/ptr_traits.h:
-
-/usr/include/c++/11/sstream:
+/usr/local/include/llvm/IR/User.h:
 
 /usr/include/c++/11/tr1/bessel_function.tcc:
 
@@ -758,6 +917,8 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: /home/twoballs/projects/mlir
 /usr/local/include/mlir/IR/BuiltinLocationAttributes.h.inc:
 
 /usr/include/c++/11/map:
+
+/usr/local/include/llvm/Support/MD5.h:
 
 /usr/include/c++/11/array:
 
@@ -787,6 +948,8 @@ include/toy/ToyPasses.h.inc:
 
 /usr/include/c++/11/bits/unique_ptr.h:
 
+/usr/local/include/llvm/Support/AtomicOrdering.h:
+
 /usr/include/c++/11/exception:
 
 /usr/include/c++/11/bits/std_abs.h:
@@ -815,17 +978,7 @@ include/toy/ToyDialect.h.inc:
 
 include/toy/Toy.h.inc:
 
-/usr/local/include/mlir/Interfaces/DataLayoutAttrInterface.h.inc:
-
-/usr/include/c++/11/cstddef:
-
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Transforms/LocationSnapshot.h:
-
-/usr/local/include/llvm/ADT/StringMapEntry.h:
-
-/usr/include/wchar.h:
-
-/usr/include/c++/11/vector:
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Transforms/Mem2Reg.h:
 
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Tools/mlir-opt/MlirOptMain.h:
 
@@ -833,29 +986,21 @@ include/toy/Toy.h.inc:
 
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Support/TypeID.h:
 
+/usr/include/errno.h:
+
+/usr/include/c++/11/bits/std_function.h:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Transforms/LocationSnapshot.h:
+
+/usr/include/c++/11/bit:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Support/ThreadLocalCache.h:
+
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Support/StorageUniquer.h:
 
 /usr/local/include/llvm/ADT/SmallString.h:
 
 /usr/include/c++/11/bits/algorithmfwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/include/c++/11/bits/localefwd.h:
-
-/usr/include/c++/11/bits/cpp_type_traits.h:
-
-/usr/local/include/llvm/Support/AllocatorBase.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/BuiltinAttributeInterfaces.h:
-
-/usr/include/pthread.h:
-
-/usr/include/c++/11/bits/move.h:
-
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/BuiltinDialect.h:
 
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Support/LLVM.h:
 
@@ -868,6 +1013,8 @@ include/toy/Toy.h.inc:
 /usr/include/c++/11/bits/atomic_base.h:
 
 /usr/include/c++/11/bits/char_traits.h:
+
+/usr/local/include/llvm/IR/DataLayout.h:
 
 /usr/include/c++/11/bits/stl_iterator.h:
 
@@ -891,39 +1038,37 @@ include/toy/Toy.h.inc:
 
 /usr/include/c++/11/bits/align.h:
 
-/usr/include/c++/11/bits/ios_base.h:
+/usr/include/ctype.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/wctype.h:
-
-/usr/include/inttypes.h:
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Pass/PassOptions.h:
 
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/AffineMap.h:
 
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/BuiltinAttributes.h:
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/SideEffectInterfaces.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
+/usr/include/math.h:
 
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/SymbolTable.h:
+/usr/include/assert.h:
 
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/BlockSupport.h:
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
-/usr/local/include/llvm/Config/llvm-config.h:
+/usr/include/c++/11/pstl/pstl_config.h:
 
-/usr/include/c++/11/bits/allocated_ptr.h:
+/usr/include/c++/11/atomic:
 
-/usr/include/c++/11/ext/type_traits.h:
+/usr/local/include/llvm/IR/Comdat.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Action.h:
 
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Transforms/ViewOpGraph.h:
+/usr/include/c++/11/bits/invoke.h:
 
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Builders.h:
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/InferIntRangeInterface.h:
 
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Operation.h:
+/usr/include/c++/11/bits/functexcept.h:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/DataLayoutInterfaces.h:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/ControlFlowInterfaces.h:
 
 /usr/local/include/mlir/Interfaces/DataLayoutOpInterface.h.inc:
 
@@ -933,9 +1078,47 @@ include/toy/Toy.h.inc:
 
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/ODSSupport.h:
 
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/ControlFlowInterfaces.h:
-
 /usr/include/c++/11/chrono:
+
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/local/include/llvm/ADT/bit.h:
+
+/usr/local/include/llvm/ADT/PointerUnion.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/CastInterfaces.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/c++/11/bits/basic_ios.tcc:
+
+/usr/local/include/llvm/Support/TypeName.h:
+
+/usr/include/c++/11/bits/stringfwd.h:
+
+/usr/local/include/llvm/IR/GlobalObject.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/CallInterfaces.h:
+
+/usr/local/include/llvm/ADT/DenseSet.h:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Visitors.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Pass/AnalysisManager.h:
+
+/usr/local/include/llvm/IR/SymbolTableListTraits.h:
+
+/usr/include/c++/11/bits/charconv.h:
+
+/usr/include/c++/11/tr1/legendre_function.tcc:
+
+/usr/local/include/llvm/IR/GlobalValue.h:
 
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Dialect/Func/IR/FuncOps.h:
 
@@ -943,29 +1126,49 @@ include/toy/Toy.h.inc:
 
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/UseDefLists.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+/usr/local/include/llvm/ADT/simple_ilist.h:
 
-/usr/include/c++/11/pstl/pstl_config.h:
+/usr/local/include/llvm/ADT/Twine.h:
 
-/usr/include/asm-generic/errno-base.h:
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/AttrTypeSubElements.h:
 
-/usr/include/c++/11/bits/std_function.h:
+/usr/include/c++/11/bits/locale_facets.tcc:
 
-/usr/include/errno.h:
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Dialect/Arith/IR/Arith.h:
 
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/DataLayoutInterfaces.h:
+/usr/local/include/llvm/IR/Constant.h:
 
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Attributes.h:
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
-/usr/include/c++/11/bits/istream.tcc:
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/SymbolTable.h:
 
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Bytecode/BytecodeWriter.h:
+/usr/local/include/llvm/IR/Function.h:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/BlockSupport.h:
+
+/usr/local/include/llvm/Config/llvm-config.h:
+
+/usr/include/c++/11/bits/allocated_ptr.h:
+
+/usr/include/c++/11/ext/type_traits.h:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Operation.h:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/BuiltinAttributes.h:
 
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Types.h:
 
-/usr/local/include/llvm/Support/raw_ostream.h:
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Attributes.h:
 
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/BuiltinOps.h:
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Bytecode/BytecodeWriter.h:
+
+/usr/local/include/llvm/IR/Instruction.def:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Dialect/LLVMIR/LLVMTypes.h:
+
+/usr/include/c++/11/bits/nested_exception.h:
+
+/usr/include/asm-generic/errno-base.h:
 
 /usr/local/include/llvm/ADT/ilist.h:
 
@@ -983,6 +1186,20 @@ include/toy/Toy.h.inc:
 
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Value.h:
 
+/usr/local/include/llvm/IR/FixedMetadataKinds.def:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/BuiltinDialect.h:
+
+/usr/local/include/llvm/Support/AllocatorBase.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/pthread.h:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/BuiltinAttributeInterfaces.h:
+
+/usr/include/c++/11/bits/move.h:
+
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
 /usr/include/c++/11/bits/stream_iterator.h:
@@ -999,23 +1216,37 @@ include/toy/Toy.h.inc:
 
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Debug/BreakpointManager.h:
 
-/usr/local/include/llvm/ADT/STLFunctionalExtras.h:
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/VectorInterfaces.h:
 
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/MemorySlotInterfaces.h:
 
-/usr/include/c++/11/bits/locale_classes.h:
+/usr/include/c++/11/cwchar:
 
-/usr/local/include/llvm/ADT/STLExtras.h:
+/usr/local/include/mlir/Dialect/Arith/IR/ArithOpsInterfaces.h.inc:
 
-/usr/include/c++/11/ciso646:
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Transforms/ViewOpGraph.h:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Builders.h:
+
+/usr/local/include/llvm/IR/DiagnosticHandler.h:
 
 /home/twoballs/projects/mlir/mlir-toy/tools/toy-opt/toy-opt.cpp:
 
+/usr/local/include/mlir/Dialect/LLVMIR/LLVMInterfaces.h.inc:
+
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/MLIRContext.h:
 
-/usr/include/locale.h:
+/usr/local/include/mlir/Interfaces/CastInterfaces.h.inc:
+
+/usr/local/include/llvm/Support/raw_ostream.h:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/BuiltinOps.h:
 
 /usr/include/alloca.h:
+
+/usr/local/include/llvm/IR/GlobalIFunc.h:
 
 /usr/include/c++/11/limits:
 
@@ -1030,6 +1261,22 @@ include/toy/Toy.h.inc:
 /usr/local/include/llvm/ADT/ArrayRef.h:
 
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/DialectInterface.h:
+
+/usr/local/include/llvm/ADT/STLFunctionalExtras.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/c++/11/bits/locale_classes.h:
+
+/usr/local/include/llvm/ADT/STLExtras.h:
+
+/usr/include/c++/11/ciso646:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/PatternMatch.h:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Dominance.h:
 
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Debug/CLOptionsSetup.h:
 
@@ -1051,8 +1298,6 @@ include/toy/Toy.h.inc:
 
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/OwningOpRef.h:
 
-/usr/include/endian.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/TypeRange.h:
@@ -1061,9 +1306,17 @@ include/toy/Toy.h.inc:
 
 /usr/include/c++/11/bits/stl_bvector.h:
 
-/usr/include/c++/11/bits/nested_exception.h:
+/usr/local/include/mlir/Interfaces/DataLayoutAttrInterface.h.inc:
+
+/usr/include/c++/11/cstddef:
+
+/usr/local/include/llvm/IR/Type.h:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/RegionGraphTraits.h:
 
 /usr/local/include/mlir/Interfaces/DataLayoutTypeInterface.h.inc:
+
+/usr/local/include/mlir/Dialect/LLVMIR/LLVMTypeInterfaces.h.inc:
 
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Dialect.h:
 
@@ -1080,6 +1333,8 @@ include/toy/Toy.h.inc:
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Dialect/LLVMIR/LLVMDialect.h:
 
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/TypeSupport.h:
 
@@ -1105,8 +1360,6 @@ include/toy/Toy.h.inc:
 
 /usr/include/c++/11/bits/shared_ptr_base.h:
 
-/usr/include/c++/11/bits/locale_facets.h:
-
 /usr/local/include/llvm/ADT/DenseMap.h:
 
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Debug/ExecutionContext.h:
@@ -1117,33 +1370,39 @@ include/toy/Toy.h.inc:
 
 /usr/include/c++/11/bits/hashtable.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+/usr/include/c++/11/bits/ios_base.h:
 
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Pass/AnalysisManager.h:
+/usr/include/c++/11/bits/istream.tcc:
 
-/usr/include/c++/11/bits/charconv.h:
+/usr/local/include/llvm/ADT/StringSwitch.h:
 
-/usr/include/c++/11/tr1/legendre_function.tcc:
+/usr/include/c++/11/bits/locale_classes.tcc:
 
-/usr/local/include/llvm/ADT/DenseSet.h:
+/usr/local/include/mlir/Transforms/Passes.h.inc:
 
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Visitors.h:
+/usr/local/include/mlir/Dialect/Arith/IR/ArithOpsDialect.h.inc:
 
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+/usr/include/c++/11/bits/stl_tree.h:
 
-/usr/include/c++/11/bits/basic_ios.tcc:
+/usr/local/include/llvm/IR/Value.h:
 
-/usr/local/include/llvm/Support/TypeName.h:
+/usr/include/c++/11/bits/locale_facets.h:
 
-/usr/include/c++/11/bits/stringfwd.h:
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+/usr/include/c++/11/bits/cpp_type_traits.h:
 
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/CallInterfaces.h:
+/usr/include/c++/11/bits/localefwd.h:
 
-/usr/include/c++/11/bits/functexcept.h:
+/usr/include/c++/11/sstream:
 
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/SideEffectInterfaces.h:
+/usr/include/c++/11/bits/ptr_traits.h:
+
+/usr/include/c++/11/bits/memoryfwd.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/c++/11/shared_mutex:
 
 /usr/local/include/llvm/Support/ManagedStatic.h:
 
@@ -1156,6 +1415,8 @@ include/toy/Toy.h.inc:
 /usr/local/include/mlir/IR/BuiltinAttributeInterfaces.h.inc:
 
 /usr/include/c++/11/cstdlib:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Dialect/LLVMIR/LLVMAttrs.h:
 
 /usr/include/c++/11/bits/stl_relops.h:
 
@@ -1171,11 +1432,17 @@ include/toy/Toy.h.inc:
 
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
 
+/usr/local/include/llvm/Support/TypeSize.h:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Dialect/LLVMIR/LLVMInterfaces.h:
+
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
 /usr/include/c++/11/pstl/execution_defs.h:
 
 /usr/include/c++/11/bits/stl_algo.h:
+
+/usr/local/include/mlir/Interfaces/MemorySlotOpInterfaces.h.inc:
 
 /usr/include/c++/11/bits/stl_construct.h:
 
@@ -1223,8 +1490,6 @@ include/toy/Toy.h.inc:
 
 /usr/include/c++/11/cerrno:
 
-/usr/include/limits.h:
-
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/c++/11/debug/assertions.h:
@@ -1244,14 +1509,6 @@ include/toy/Toy.h.inc:
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Transforms/Passes.h:
 
 /usr/include/c++/11/string_view:
-
-/usr/local/include/llvm/ADT/ilist_node.h:
-
-/usr/include/linux/limits.h:
-
-/usr/include/c++/11/cwchar:
-
-/usr/include/features.h:
 
 /usr/include/c++/11/debug/debug.h:
 
@@ -1283,6 +1540,8 @@ include/toy/Toy.h.inc:
 
 /usr/local/include/mlir/Interfaces/CallInterfaces.h.inc:
 
+/usr/local/include/llvm/Support/CFGDiff.h:
+
 /usr/include/c++/11/initializer_list:
 
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Block.h:
@@ -1290,8 +1549,6 @@ include/toy/Toy.h.inc:
 /usr/include/c++/11/ios:
 
 /usr/include/c++/11/istream:
-
-/usr/include/c++/11/variant:
 
 /usr/local/include/llvm/ADT/PointerIntPair.h:
 
@@ -1321,9 +1578,9 @@ include/toy/Toy.h.inc:
 
 /usr/include/c++/11/ratio:
 
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/BuiltinTypeInterfaces.h:
-
 /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Bytecode/BytecodeOpInterface.h:
+
+/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/BuiltinTypeInterfaces.h:
 
 /usr/include/c++/11/stdexcept:
 
@@ -1349,10 +1606,6 @@ include/toy/Toy.h.inc:
 
 /usr/include/c++/11/tr1/gamma.tcc:
 
-/home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Pass/PassOptions.h:
-
-/usr/include/ctype.h:
-
 /usr/include/c++/11/ext/new_allocator.h:
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
@@ -1366,7 +1619,3 @@ include/toy/Toy.h.inc:
 /usr/include/c++/11/bits/string_view.tcc:
 
 /usr/include/c++/11/utility:
-
-/usr/include/assert.h:
-
-/usr/include/math.h:
