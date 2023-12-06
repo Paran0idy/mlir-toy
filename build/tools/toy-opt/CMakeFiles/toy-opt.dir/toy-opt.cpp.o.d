@@ -391,4 +391,83 @@ tools/toy-opt/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: \
  /usr/local/include/mlir/IR/BuiltinOps.h.inc \
  /home/twoballs/projects/mlir/mlir-toy/build/include/toy/Toy.h.inc \
  /home/twoballs/projects/mlir/mlir-toy/include/toy/ToyPasses.h \
- /home/twoballs/projects/mlir/mlir-toy/build/include/toy/ToyPasses.h.inc
+ /home/twoballs/projects/mlir/mlir-toy/build/include/toy/ToyPasses.h.inc \
+ /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Dialect/Arith/IR/Arith.h \
+ /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/CastInterfaces.h \
+ /usr/local/include/mlir/Interfaces/CastInterfaces.h.inc \
+ /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/InferIntRangeInterface.h \
+ /usr/local/include/mlir/Interfaces/InferIntRangeInterface.h.inc \
+ /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/VectorInterfaces.h \
+ /usr/local/include/mlir/Interfaces/VectorInterfaces.h.inc \
+ /usr/local/include/llvm/ADT/StringExtras.h \
+ /usr/local/include/llvm/ADT/APSInt.h \
+ /usr/local/include/mlir/Dialect/Arith/IR/ArithOpsDialect.h.inc \
+ /usr/local/include/mlir/Dialect/Arith/IR/ArithOpsEnums.h.inc \
+ /usr/local/include/mlir/Dialect/Arith/IR/ArithOpsAttributes.h.inc \
+ /usr/local/include/mlir/Dialect/Arith/IR/ArithOpsInterfaces.h.inc \
+ /usr/local/include/mlir/Dialect/Arith/IR/ArithOps.h.inc \
+ /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Dialect/LLVMIR/LLVMDialect.h \
+ /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Dialect/LLVMIR/LLVMAttrs.h \
+ /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Dialect/LLVMIR/LLVMTypes.h \
+ /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Interfaces/MemorySlotInterfaces.h \
+ /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/Dominance.h \
+ /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/RegionGraphTraits.h \
+ /usr/local/include/llvm/ADT/GraphTraits.h \
+ /usr/local/include/llvm/Support/GenericDomTree.h \
+ /usr/local/include/llvm/Support/CFGDiff.h \
+ /usr/local/include/llvm/Support/CFGUpdate.h \
+ /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/IR/PatternMatch.h \
+ /usr/local/include/mlir/Interfaces/MemorySlotOpInterfaces.h.inc \
+ /usr/local/include/mlir/Interfaces/MemorySlotTypeInterfaces.h.inc \
+ /usr/local/include/mlir/Dialect/LLVMIR/LLVMTypeInterfaces.h.inc \
+ /usr/local/include/mlir/Dialect/LLVMIR/LLVMTypes.h.inc \
+ /usr/local/include/mlir/Dialect/LLVMIR/LLVMOpsEnums.h.inc \
+ /usr/local/include/mlir/Dialect/LLVMIR/LLVMOpsAttrDefs.h.inc \
+ /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Dialect/LLVMIR/LLVMInterfaces.h \
+ /usr/local/include/mlir/Dialect/LLVMIR/LLVMInterfaces.h.inc \
+ /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Support/ThreadLocalCache.h \
+ /usr/local/include/llvm/Support/Mutex.h \
+ /home/twoballs/projects/mlir/llvm-project/mlir/include/mlir/Transforms/Mem2Reg.h \
+ /usr/local/include/llvm/ADT/PointerEmbeddedInt.h \
+ /usr/local/include/llvm/IR/DerivedTypes.h \
+ /usr/local/include/llvm/IR/Type.h \
+ /usr/local/include/llvm/Support/CBindingWrapping.h \
+ /usr/local/include/llvm-c/Types.h /usr/local/include/llvm-c/ExternC.h \
+ /usr/local/include/llvm/Support/TypeSize.h \
+ /usr/local/include/llvm/IR/LLVMContext.h \
+ /usr/local/include/llvm/IR/DiagnosticHandler.h \
+ /usr/local/include/llvm/IR/FixedMetadataKinds.def \
+ /usr/local/include/llvm/IR/Module.h \
+ /usr/local/include/llvm/IR/Attributes.h \
+ /usr/local/include/llvm/Support/CodeGen.h \
+ /usr/local/include/llvm/Support/ModRef.h \
+ /usr/local/include/llvm/IR/Attributes.inc \
+ /usr/local/include/llvm/IR/Comdat.h \
+ /usr/local/include/llvm/IR/DataLayout.h \
+ /usr/local/include/llvm/IR/Function.h \
+ /usr/local/include/llvm/IR/Argument.h /usr/local/include/llvm/IR/Value.h \
+ /usr/local/include/llvm/IR/Use.h /usr/local/include/llvm/IR/Value.def \
+ /usr/local/include/llvm/IR/BasicBlock.h \
+ /usr/local/include/llvm/IR/Instruction.h \
+ /usr/local/include/llvm/ADT/Bitfields.h \
+ /usr/local/include/llvm/IR/DebugLoc.h \
+ /usr/local/include/llvm/IR/TrackingMDRef.h \
+ /usr/local/include/llvm/IR/Metadata.h \
+ /usr/local/include/llvm/IR/Constant.h /usr/local/include/llvm/IR/User.h \
+ /usr/local/include/llvm/IR/Metadata.def \
+ /usr/local/include/llvm/IR/SymbolTableListTraits.h \
+ /usr/local/include/llvm/Support/AtomicOrdering.h \
+ /usr/local/include/llvm/IR/Instruction.def \
+ /usr/local/include/llvm/IR/CallingConv.h \
+ /usr/local/include/llvm/IR/GlobalObject.h \
+ /usr/local/include/llvm/IR/GlobalValue.h \
+ /usr/local/include/llvm/Support/MD5.h \
+ /usr/local/include/llvm/Support/Endian.h \
+ /usr/local/include/llvm/IR/OperandTraits.h \
+ /usr/local/include/llvm/IR/GlobalAlias.h \
+ /usr/local/include/llvm/IR/GlobalIFunc.h \
+ /usr/local/include/llvm/IR/GlobalVariable.h \
+ /usr/local/include/llvm/IR/ProfileSummary.h \
+ /usr/local/include/mlir/Dialect/LLVMIR/LLVMOps.h.inc \
+ /usr/local/include/mlir/Dialect/LLVMIR/LLVMIntrinsicOps.h.inc \
+ /usr/local/include/mlir/Dialect/LLVMIR/LLVMOpsDialect.h.inc
