@@ -1,2 +1,0 @@
-/usr/bin/ar Dqc libToyTransforms.a CMakeFiles/obj.ToyTransforms.dir/ConvertToyToArith.cpp.o
-/usr/bin/ranlib -D libToyTransforms.a

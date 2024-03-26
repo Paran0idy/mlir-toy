@@ -1,2 +1,0 @@
-/usr/bin/ar Dqc libToy.a CMakeFiles/obj.Toy.dir/Toy.cpp.o
-/usr/bin/ranlib -D libToy.a
