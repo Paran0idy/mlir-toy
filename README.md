@@ -1,6 +1,6 @@
 # MLIR-Toy
 
-About Toy Dialect
+A Toy Dialect for ML Workload
 
 ## Example
 
