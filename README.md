@@ -4,9 +4,6 @@ A Toy Dialect for ML Workload
 
 ## Example
 
-+ `toy.add`: Add operand
-+ `toy.sub`: Sub operand
-
 ```mlir
 module {
   func.func @test(%arg0: i32, %arg1: i32) -> i32 {
@@ -18,9 +15,15 @@ module {
 }
 ```
 
-
 ## Dialect 
 About define Toy Dialect
 
+## Operation
++ `toy.add`: Add operand
++ `toy.sub`: Sub operand
+
 ## Pass
-Write a simple pass about ConvertToyToArith
+Writing a simple pass about ConvertToyToArith
+
+## Conversion
+Lowering Toy Dialect to other Dialect
