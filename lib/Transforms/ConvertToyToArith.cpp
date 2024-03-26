@@ -22,7 +22,7 @@ using namespace llvm;
 
 struct AddOpPat : OpConversionPattern<AddOp> {
   using OpConversionPattern<AddOp>::OpConversionPattern;
-  LogicalResult matchAndRewrite(AddOp op, AddOpAdaptor adaptor, ConversionPatternRewriter &rewriter) const {
+  LogicalResult matchAndRewrite(AddOp op, AddOpAdaptor adaptor, ConversionPatternRewriter &rewriter) const override {
     auto lhs = adaptor.getLhs();
     auto rhs = adaptor.getRhs();
     auto result = rewriter.create<arith::AddIOp>(op->getLoc(), lhs, rhs);
