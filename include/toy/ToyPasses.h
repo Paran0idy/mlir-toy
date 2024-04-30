@@ -6,6 +6,7 @@ namespace toy {
 #include "toy/ToyPasses.h.inc"
 
 std::unique_ptr<mlir::Pass> createConvertToyToArithPass();
+std::unique_ptr<mlir::Pass> createToyOptimizationPass();
 
 #define GEN_PASS_REGISTRATION
 #include "toy/ToyPasses.h.inc"
